@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/remember_to_wash_your_hands"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_supportDev"
+        android:orderInCategory="100"
+        android:title="@string/support_dev"
+        app:showAsAction="never" >
+        <menu>
+
+            <item
+                android:id="@+id/action_buyCoffee"
+                android:orderInCategory="100"
+                android:title="Buy me a Coffee"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/action_suppotDev"
+                android:orderInCategory="100"
+                android:title="Follow"
+                app:showAsAction="never" >
+                <menu>
+
+                    <item
+                        android:id="@+id/action_twitter"
+                        android:orderInCategory="100"
+                        android:title="Twitter"
+                        app:showAsAction="never" />
+                    <item
+                        android:id="@+id/action_youtube"
+                        android:orderInCategory="100"
+                        android:title="YouTube"
+                        app:showAsAction="never" />
+
+                    <item
+                        android:id="@+id/action_facebook"
+                        android:orderInCategory="100"
+                        android:title="Facebook"
+                        app:showAsAction="never" />
+
+                </menu>
+
+            </item>
+
+        </menu>
+
+    </item>
+
+
+
+
+
+</menu>

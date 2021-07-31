@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1045485635214",
+    "firebase_url": "https://coronavirus-app-dfacc.firebaseio.com",
+    "project_id": "coronavirus-app-dfacc",
+    "storage_bucket": "coronavirus-app-dfacc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045485635214:android:5d1035be30cdf40d4aebdf",
+        "android_client_info": {
+          "package_name": "com.tmanswap.coronavirusapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1045485635214-4hvrm50v4cb7c6tmumv0eah5k96ofrvh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tmanswap.coronavirusapp",
+            "certificate_hash": "16516ba61c9afca9205fa6bec808674b4b8b8c1d"
+          }
+        },
+        {
+          "client_id": "1045485635214-3mc6tejmornh9ue8ils3k1ck8h8gqdju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfYwoJTMlyj56_5UEMON5rPoN7SMGBlI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1045485635214-3mc6tejmornh9ue8ils3k1ck8h8gqdju.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.tmanswap.coronavirusapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_spread"
+        android:name="com.tmanswap.coronavirusapp.ui.howitspread.HowItSpreadFragment"
+        android:label="@string/how_it_spreads"
+        tools:layout="@layout/how_it_spread_fragment" />
+
+    <fragment
+        android:id="@+id/nav_protect"
+        android:name="com.tmanswap.coronavirusapp.ui.protectyourself.ProtectYourselfFragment"
+        android:label="@string/how_to_protect_yourself"
+        tools:layout="@layout/protect_yourself_fragment" />
+
+    <fragment
+        android:id="@+id/nav_symptoms"
+        android:name="com.tmanswap.coronavirusapp.ui.symptomstesting.SymptomsTestingFragment"
+        android:label="@string/symptoms_testing"
+        tools:layout="@layout/symptoms_testing_fragment" />
+
+    <fragment
+        android:id="@+id/nav_myth"
+        android:name="com.tmanswap.coronavirusapp.ui.myths.MythsFragment"
+        android:label="@string/misinfo"
+        tools:layout="@layout/myths_fragment" />
+
+</navigation>
